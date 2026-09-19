@@ -178,14 +178,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-left: 4px solid #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -270,13 +275,14 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 500px;
 }
 
 header .intro-text {
@@ -641,6 +647,9 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
 }
 
 .team-member h4 {
