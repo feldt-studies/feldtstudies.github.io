@@ -1,0 +1,80 @@
+url: https://feldtstudies.github.io
+baseurl:
+
+# Site settings
+title: FeldtStudies Research Group
+email: contact@feldtstudies.org
+description: "FeldtStudies is a research group focused on advancing knowledge in our field through collaborative research and innovation."
+
+
+# Team names, titles and social links
+people:
+- name: Robert Feldt
+  pic: 1
+  position: Full Professor
+  social:
+    - title: github
+      url: #
+    - title: linkedin
+      url: #
+    - title: google-scholar
+      url: #
+
+- name: Julian Frattini
+  pic: 2
+  position: PostDoc
+  social:
+    - title: github
+      url: #
+    - title: linkedin
+      url: #
+    - title: google-scholar
+      url: #
+
+- name: Cristina Martinez Montes
+  pic: 3
+  position: PostDoc
+  social:
+    - title: github
+      url: #
+    - title: linkedin
+      url: #
+    - title: google-scholar
+      url: #
+
+- name: Sabina Akbarova
+  pic: 4
+  position: PhD Student
+  social:
+    - title: github
+      url: #
+    - title: linkedin
+      url: #
+    - title: google-scholar
+      url: #
+
+- name: Lekshmi Murali Rani
+  pic: 5
+  position: PhD Student
+  social:
+    - title: github
+      url: #
+    - title: linkedin
+      url: #
+    - title: google-scholar
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/feldtstudies
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Department of Computer Science and Engineering
+  - line: Chalmers University of Technology
+  - line: Gothenburg, Sweden
+
+# Build settings
+markdown: kramdown
+permalink: pretty
