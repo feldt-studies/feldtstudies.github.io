@@ -12,6 +12,8 @@ people:
 - name: Robert Feldt
   pic: 1
   position: Full Professor
+  modal-id: 1
+  bio: "Robert Feldt is a Full Professor in Software Engineering at Chalmers University of Technology. His research focuses on software testing, search-based software engineering, and AI-driven software development methodologies."
   social:
     - title: github
       url: #
@@ -23,6 +25,8 @@ people:
 - name: Julian Frattini
   pic: 2
   position: PostDoc
+  modal-id: 2
+  bio: "Julian Frattini is a PostDoc researcher specializing in requirements engineering and software quality. His work explores the intersection of formal methods and practical software development."
   social:
     - title: github
       url: #
@@ -34,6 +38,8 @@ people:
 - name: Cristina Martinez Montes
   pic: 3
   position: PostDoc
+  modal-id: 3
+  bio: "Cristina Martinez Montes is a PostDoc researcher working on behavioral software engineering and human aspects of software development. Her research examines how developers interact with modern development tools and practices."
   social:
     - title: github
       url: #
@@ -45,6 +51,8 @@ people:
 - name: Sabina Akbarova
   pic: 4
   position: PhD Student
+  modal-id: 4
+  bio: "Sabina Akbarova is a PhD student researching agentic AI and its applications in software engineering. Her work focuses on autonomous agents for code generation and software development assistance."
   social:
     - title: github
       url: #
@@ -56,6 +64,8 @@ people:
 - name: Lekshmi Murali Rani
   pic: 5
   position: PhD Student
+  modal-id: 5
+  bio: "Lekshmi Murali Rani is a PhD student focusing on software testing and quality assurance. Her research explores novel testing approaches for complex software systems."
   social:
     - title: github
       url: #
