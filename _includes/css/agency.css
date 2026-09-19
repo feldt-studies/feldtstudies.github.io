@@ -276,7 +276,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.3) 100%), url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -284,9 +284,6 @@ header {
     background-size: cover;
     -o-background-size: cover;
     min-height: 70vh;
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 80px;
 }
 
 header .intro-text {
